@@ -4,10 +4,15 @@ HyperSeed is a MATLAB software to segment seeds from hyperspectral images.
 
 High-throughput, nondestructive, and precise measurement of seeds is critical for the evaluation of seed quality and the improvement of agricultural productions. To this end, we have developed a novel end-to-end platform named HyperSeed to provide hyperspectral information for seeds. As a test case, the hyperspectral images of rice seeds are obtained from a high-performance line-scan image spectrograph covering the spectral range from 600 to 1700 nm. The acquired images are processed via a graphical user interface (GUI)-based open-source software for background removal and seed segmentation. The output is generated in the form of a hyperspectral cube and curve for each seed. In our experiment, we presented the visual results of seed segmentation on different seed species. Moreover, we conducted a classification of seeds raised in heat stress and control environments using both traditional machine learning models and neural network models. The results show that the proposed 3D convolutional neural network (3D CNN) model has the highest accuracy, which is 97.5% in seed-based classification and 94.21% in pixel-based classification, compared to 80.0% in seed-based classification and 85.67% in seed-based classification from the support vector machine (SVM) model. Moreover, our pipeline enables systematic analysis of spectral curves and identification of wavelengths of biological interest.
 
-![]https://raw.githubusercontent.com/tgaochn/HyperSeed/main/fig/workflow.png)
-![]https://raw.githubusercontent.com/tgaochn/HyperSeed/main/fig/GUI.png)
+## workflow
 
-# Software and data
+![](https://raw.githubusercontent.com/tgaochn/HyperSeed/main/fig/workflow.png)
+
+## GUI
+
+![](https://raw.githubusercontent.com/tgaochn/HyperSeed/main/fig/GUI.png)
+
+# Software and Data
 
 ## Open-source Software
 
